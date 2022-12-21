@@ -11,7 +11,7 @@
     "prettier:fix": "prettier -w \"src/**/*.js\"",
     "lint": "eslint \"src/**/*.js\"",
     "lint:fix": "eslint --fix \"src/**/*.js\"",
-	"code:fix": "prettier -w \"src/**/*.js\" && eslint --fix \"src/**/*.js\""
+    "code:fix": "prettier -w \"src/**/*.js\" && eslint --fix \"src/**/*.js\""
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +25,8 @@
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "nodemon": "^2.0.20",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "supertest": "^6.3.3"
   },
   "config": {
     "commitizen": {
